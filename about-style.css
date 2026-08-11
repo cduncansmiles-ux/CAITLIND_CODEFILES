@@ -56,6 +56,7 @@ mark {
 }
 .SectionA p {
     font-family: "Winky Sans";
+        margin-right: 500px;
 
 }
 
@@ -64,6 +65,7 @@ mark {
 }
 .SectionB p {
     font-family: "Winky Sans";
+    text-align: center;
 }
 
 .SectionC h1 {
@@ -71,6 +73,7 @@ mark {
 }
 .SectionC p {
     font-family: "Winky Sans";
+    text-align: center;
 }
 
 /*HEADERANDBODY*/
@@ -93,10 +96,12 @@ mark {
 
 /*NAV BAR*/
 
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
+  z-index: 10;
 }
 
 ul {
@@ -136,9 +141,9 @@ ul li a:hover {
     color: #ffffff;
     font-size: 25px;
     text-align: left;
-    padding-top: 200px;
+    padding-top: 80px;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
@@ -148,18 +153,76 @@ ul li a:hover {
     text-align: left;
     padding-top: 20px;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     overflow: hidden;
+}
+
+.contruction-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -325px;
+    margin-left: 700px;
 }
 
 .SectionB {
     background-color: #FFE548;
     color: #46220B;
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
+    padding-bottom: 50px;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-right: 40px;
     overflow: hidden;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-items: center;  
+    align-items: center; 
+}
+.employee {
+    text-align: center;
+    position:relative;
+ 
+}
+.employee img {
+    display:block;
+    object-fit: cover;
+    place-items: center;
+    max-width: 100%;
+    height: auto;
+ }
+
+.employee p {
+    margin-top: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 450px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #46220B80;
+}
+.employee:hover .overlay {
+  opacity: 1;
+}
+.text {
+    font-family: "Winky Sans";
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 
@@ -172,6 +235,7 @@ ul li a:hover {
     padding-bottom: 20px;
     overflow: hidden;
 }
+
 
 /*FOOTER*/
 
