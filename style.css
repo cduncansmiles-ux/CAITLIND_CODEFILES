@@ -120,12 +120,20 @@ ul li a {
   display: block;
   color: #46220B;
   text-align: center;
+    margin-right: 20px;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
   background-color: #ffff;
+}
+
+
+nav .material-icons {
+  font-size: 25px;
+  color: 46220B;
+  vertical-align: middle;
 }
 
 /*SITE SECTIONS*/
@@ -224,9 +232,12 @@ img {
     border: none;
     cursor: pointer;
     transition-duration: 0.4s;
+    text-decoration: none;
 }
 .button2:hover {  background-color: #46220B;
-  color: white;}
+  color: white;
+  text-decoration: none;
+}
 
 
 .button3 {

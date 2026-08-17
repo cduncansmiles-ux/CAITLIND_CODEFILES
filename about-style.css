@@ -126,12 +126,20 @@ ul li a {
   display: block;
   color: #46220B;
   text-align: center;
+      margin-right: 20px;
+
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
   background-color: #ffff;
+}
+
+nav .material-icons {
+  font-size: 25px;
+  color: 46220B;
+  vertical-align: middle;
 }
 
 /*SITE SECTIONS*/
