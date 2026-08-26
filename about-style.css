@@ -157,7 +157,7 @@ nav .material-icons {
 
 .SectionA {
     background-color: #AF5839;
-    color: #46220B;
+    color: #ffffff;
     text-align: left;
     padding-top: 20px;
     padding-left: 40px;
@@ -244,8 +244,14 @@ nav .material-icons {
     overflow: hidden;
 }
 
+.SectionC a {
+    color: #46220B;
+    text-decoration: none;
+}
+
 
 /*FOOTER*/
+
 
 .Footer {
     font-family: "Winky Sans";
@@ -253,16 +259,28 @@ nav .material-icons {
     color: white;
     text-align: left;
     padding: 50px;
-        overflow: hidden;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.Footer a {
+    color: #AF5839;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.bullet {
+    color: #AF5839;
 }
 
 .logo2 {
   margin-left: 900px;
-margin-top: -150px;
-margin-bottom: -50px;
+margin-top: -160px;
+margin-bottom: -60px;
     width: auto;
 }
 
 .FooterHeading {
-padding-top: 75px; 
+padding-top: 40px; 
+padding-bottom: 10px;
 }

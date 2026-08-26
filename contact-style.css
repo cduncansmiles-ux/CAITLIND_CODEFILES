@@ -258,22 +258,37 @@ input[type=submit]:hover {
 
 /*FOOTER*/
 
+/*FOOTER*/
+
+
 .Footer {
     font-family: "Winky Sans";
     background-color: #46220B;
     color: white;
     text-align: left;
     padding: 50px;
-        overflow: hidden;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.Footer a {
+    color: #AF5839;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.bullet {
+    color: #AF5839;
 }
 
 .logo2 {
   margin-left: 900px;
-margin-top: -150px;
-margin-bottom: -50px;
+margin-top: -160px;
+margin-bottom: -60px;
     width: auto;
 }
 
 .FooterHeading {
-padding-top: 75px; 
+padding-top: 40px; 
+padding-bottom: 10px;
 }
