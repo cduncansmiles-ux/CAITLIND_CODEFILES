@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy";
+  font-style: normal;
+}
+.winky-sans{
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*HIGHLIGHTS*/
+
+::-webkit-selection {
+    background: #FFE548; 
+    color: #46220B;    
+}
+
+::-moz-selection {
+    background: #FFE548; 
+    color: #46220B;
+}
+
+::selection {
+    background: #FFE548; 
+    color: #46220B;
+}
+
+mark {
+  background-color: #FFE548; 
+  color: #46220B;          
+}
+
+
+/*FONTS*/
+
+.hero h1 {
+    font-family: "Luckiest Guy";
+    text-align: center;
+}
+.hero p {
+    font-family: "Winky Sans";
+        text-align: center;
+
+}
+
+
+
+/*INFORMATION*/
+
+.hero{
+    margin-top: 100px;
+}
+
+.hero a {
+    text-decoration: underline;
+        color: #46220B;
+}
+.head{
+    color: #46220B;
+    background-color:#FFE548;
+}
