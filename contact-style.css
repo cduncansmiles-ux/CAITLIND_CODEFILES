@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -196,9 +196,9 @@ nav .material-icons {
     background-color: #FFE548;
     color: #46220B;
     text-align: center;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-bottom: 20px;
+    padding-top: 1.5vw;
+    padding-left: 3vw;
+    padding-bottom: 1.5vw;
     overflow: hidden;
 
 }
@@ -256,7 +256,6 @@ input[type=submit]:hover {
   color:#46220B;
 }
 
-/*FOOTER*/
 
 /*FOOTER*/
 

@@ -71,7 +71,9 @@ mark {
 .SectionC p {
     font-family: "Winky Sans";
 }
-
+.SectionC a {
+  text-decoration: none;
+}
 /*HEADERANDBODY*/
 
 .Header {
@@ -275,7 +277,7 @@ img {
     background-color: #46220B;
     color: white;
     text-align: left;
-    padding: 50px;
+    padding: 4vw;
     font-size: 14px;
         overflow: hidden;
 }
@@ -288,13 +290,12 @@ img {
 
 .bullet {
     color: #AF5839;
-
 }
 
 .logo2 {
-  margin-left: 900px;
-margin-top: -160px;
-margin-bottom: -60px;
+  margin-left: 50vw;
+margin-top: -9vw;
+margin-bottom: 3vw;
     width: auto;
 }
 
